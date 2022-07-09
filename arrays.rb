@@ -43,3 +43,15 @@ is_minor.push(false)
 is_minor.shift
 #this will add false to the beggining of the array
 is_minor.unshift(false)
+
+#the index of an array starts with 0 and goes up by 1
+
+#this will return Tom the first in the array
+names[0]
+#this will return Ryan the third in the array
+names[2]
+
+#.take returns the number of items in the array that you declare from the beggining
+
+#this will return 5.1, 3.25, 6.25
+height_feet.take(3)
